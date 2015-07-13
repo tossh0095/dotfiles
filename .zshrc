@@ -1,7 +1,8 @@
 # 少し凝った zshrc
 # License : MIT
 # http://mollifier.mit-license.org/
-
+# modified by tossh095
+# https://github.com/tossh0095/dotfiles
 ########################################
 # 環境変数
 export LANG=ja_JP.UTF-8
