@@ -1,3 +1,22 @@
+if has('vim_starting')
+   if &compatible
+     set nocompatible 
+   endif
+   " Required:
+   set runtimepath+=~/.vim/bundle/neobundle.vim/
+ endif
+
+" Required:
+call neobundle#begin(expand('~/.vim/bundle/'))
+" Let NeoBundle manage NeoBundle
+" Required:
+NeoBundleFetch 'Shougo/neobundle.vim'
+
+" My Bundles here:
+call neobundle#end()
+
+NeoBundleCheck
+
 syntax on
 :set smartindent
 :set hlsearch
