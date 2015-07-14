@@ -13,6 +13,8 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 " My Bundles here:
+NeoBundle 'tpope/vim-endwise'
+
 call neobundle#end()
 
 NeoBundleCheck
