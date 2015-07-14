@@ -14,6 +14,8 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 
 " My Bundles here:
 NeoBundle 'tpope/vim-endwise'
+NeoBundle 'kana/vim-smartinput'
+
 
 call neobundle#end()
 
