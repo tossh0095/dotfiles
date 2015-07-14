@@ -16,11 +16,15 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'tpope/vim-endwise'
 NeoBundle 'kana/vim-smartinput'
 NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'nathanaelkane/vim-indent-guides'
 
 call neobundle#end()
 
 NeoBundleCheck
 
+
+colorscheme default
+let g:indent_guides_enable_on_vim_startup = 1
 syntax on
 :set smartindent
 :set hlsearch
