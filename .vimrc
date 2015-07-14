@@ -25,7 +25,9 @@ syntax on
 :set expandtab 
 :set ignorecase
 :set list
+set autoindent
 :filetype plugin indent on
+
 
 " Powerline
 python from powerline.vim import setup as powerline_setup
